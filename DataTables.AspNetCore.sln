@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTables.AspNetCore", "src\DataTables.AspNetCore\DataTables.AspNetCore.csproj", "{BFAFE999-3799-44C7-B3A4-D4D0385B7EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTables.AspNetCore.Demo", "samples\DataTables.AspNetCore.Demo\DataTables.AspNetCore.Demo.csproj", "{6ACF8677-004E-4169-914E-2DBAEC1E667F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFAFE999-3799-44C7-B3A4-D4D0385B7EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAFE999-3799-44C7-B3A4-D4D0385B7EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAFE999-3799-44C7-B3A4-D4D0385B7EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAFE999-3799-44C7-B3A4-D4D0385B7EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACF8677-004E-4169-914E-2DBAEC1E667F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACF8677-004E-4169-914E-2DBAEC1E667F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACF8677-004E-4169-914E-2DBAEC1E667F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACF8677-004E-4169-914E-2DBAEC1E667F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8B416EC-5287-45FD-943C-77E29ACADD17}
+	EndGlobalSection
+EndGlobal
