@@ -15,6 +15,6 @@
         ///     Ordering direction for this column.
         ///     It will be dt-string asc or dt-string desc to indicate ascending ordering or descending ordering, respectively.
         /// </summary>
-        public DataTablesOrderDirection Dir { get; set; }
+        public OrderDirection Dir { get; set; }
     }
 }

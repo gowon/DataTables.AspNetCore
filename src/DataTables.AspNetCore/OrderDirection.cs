@@ -4,7 +4,7 @@ namespace DataTables.AspNetCore
     /// <summary>
     ///     Sort orders of jQuery DataTables.
     /// </summary>
-    public enum DataTablesOrderDirection
+    public enum OrderDirection
     {
         ASC,
         DESC

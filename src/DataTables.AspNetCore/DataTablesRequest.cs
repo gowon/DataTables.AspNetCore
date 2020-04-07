@@ -3,7 +3,7 @@
     /// <summary>
     ///     The parameters sent by jQuery DataTables in AJAX queries.
     /// </summary>
-    public class DataTablesParameters
+    public class DataTablesRequest
     {
         /// <summary>
         ///     Draw counter.
@@ -43,19 +43,5 @@
         ///     Global search value. To be applied to all columns which have searchable as true.
         /// </summary>
         public DataTablesSearch Search { get; set; }
-
-        /// <summary>
-        ///     Custom column that is used to further sort on the first Order column.
-        /// </summary>
-        public string SortOrder
-        {
-            get
-            {
-                return Columns != null && Order != null && Order.Length > 0
-                    ? Columns[Order[0].Column].Data +
-                      (Order[0].Dir == DataTablesOrderDirection.DESC ? " " + Order[0].Dir : string.Empty)
-                    : null;
-            }
-        }
     }
 }
